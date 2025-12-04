@@ -1,0 +1,74 @@
+[
+  {
+    "serviceId": 1,
+    "serviceName": "Winter Coat Fitting for Dogs",
+    "providerName": "PawCare Studio",
+    "providerEmail": "info@pawcare.com",
+    "price": 25,
+    "rating": 4.9,
+    "slotsAvailable": 4,
+    "description": "Custom coat fitting and warm outfit options to keep your dog comfortable in the cold.",
+    "image": "/assets/accessory.png",
+    "category": "Clothing"
+  },
+  {
+    "serviceId": 2,
+    "serviceName": "Winter Grooming",
+    "providerName": "CozyPets Grooming",
+    "providerEmail": "hello@cozypets.com",
+    "price": 30,
+    "rating": 4.8,
+    "slotsAvailable": 3,
+    "description": "Professional grooming with moisturizing paw balm and winter-safe shampoo.",
+    "image": "/assets/pet-grooming.png",
+    "category": "Grooming"
+  },
+  {
+    "serviceId": 3,
+    "serviceName": "Heated Pet Bed Setup",
+    "providerName": "WarmPaws Comfort",
+    "providerEmail": "support@warmpaws.com",
+    "price": 40,
+    "rating": 4.7,
+    "slotsAvailable": 5,
+    "description": "Installation of a cozy heated bed perfect for keeping pets warm during freezing nights.",
+    "image": "/assets/pet-bed.png",
+    "category": "Comfort"
+  },
+  {
+    "serviceId": 4,
+    "serviceName": "Nutritional Winter Diet Plan",
+    "providerName": "HealthyTail Vet Clinic",
+    "providerEmail": "contact@healthytail.com",
+    "price": 35,
+    "rating": 4.9,
+    "slotsAvailable": 2,
+    "description": "Personalized meal planning to boost your pet’s immunity and energy during the winter season.",
+    "image": "/assets/nutrition.png",
+    "category": "Nutrition"
+  },
+  {
+    "serviceId": 5,
+    "serviceName": "Pet Winter Walk Assistance",
+    "providerName": "SafeSteps Walkers",
+    "providerEmail": "walk@ safestep.com",
+    "price": 20,
+    "rating": 4.6,
+    "slotsAvailable": 6,
+    "description": "Trained walkers ensure safe and warm outdoor walks with proper gear and timing.",
+    "image": "/assets/dog-walking.png",
+    "category": "Exercise"
+  },
+  {
+    "serviceId": 6,
+    "serviceName": "Winter Health Checkup",
+    "providerName": "SnowVet Care",
+    "providerEmail": "clinic@snowvet.com",
+    "price": 50,
+    "rating": 5.0,
+    "slotsAvailable": 3,
+    "description": "Comprehensive winter wellness check to prevent seasonal illnesses and ensure your pet’s health.",
+    "image": "/assets/veterinary.png",
+    "category": "Health"
+  }
+]
