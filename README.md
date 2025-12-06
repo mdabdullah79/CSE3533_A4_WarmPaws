@@ -32,10 +32,10 @@ https://warmpawscozy.netlify.app
 
 
 ### Home Page
-![Home Page](./assets/home.jpg)  
+![Home Page](./public/assets/home.jpg)  
 
 ### Local Services
-![Local Services](./assets/services.jpg)  
+![Local Services](./public/assets/services.jpg)  
 
 
 ---
