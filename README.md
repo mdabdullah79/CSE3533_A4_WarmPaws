@@ -28,13 +28,13 @@ https://warmpawscozy.netlify.app
 ## 🖼️ Screenshots
 
 ### Login Page
-![Login Page](/assets/login.jpg) 
+![Login Page](./assets/login.jpg) 
 
 ### Home Page
-![Home Page](/assets/home.jpg)  
+![Home Page](./assets/home.jpg)  
 
 ### Local Services
-![Local Services](/assets/services.jpg)  
+![Local Services](./assets/services.jpg)  
 
 
 ---
