@@ -28,7 +28,8 @@ https://warmpawscozy.netlify.app
 ## 🖼️ Screenshots
 
 ### Login Page
-![Login Page](./assets/login.jpg) 
+![Login Page](./public/assets/login.jpg)
+
 
 ### Home Page
 ![Home Page](./assets/home.jpg)  
