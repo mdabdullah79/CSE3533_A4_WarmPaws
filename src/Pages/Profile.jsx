@@ -10,18 +10,14 @@ const ProfilePage = () => {
   const [photo, setPhoto] = useState(user?.photoURL || "");
   const [loading, setLoading] = useState(false);
 
-  // ✅ Update profile using context method
   const handleUpdateProfile = async () => {
     setLoading(true);
     try {
       await updateUser({ displayName: name, photoURL: photo });
-
-
       toast.success("Profile updated successfully!")
       setIsEditing(false);
     } catch (error) {
       console.error("Profile update error:", error);
-      alert("❌ Failed to update profile. Try again.");
     } finally {
       setLoading(false);
     }

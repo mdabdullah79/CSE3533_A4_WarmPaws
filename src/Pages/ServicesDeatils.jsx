@@ -20,9 +20,7 @@ const ServiceDetailsPage = () => {
   return (
     <>
       <Navbar></Navbar>
-
       <ServicesDeatilsCard key={id} service={service}></ServicesDeatilsCard>
-
       <Footer></Footer>
     </>
   );
