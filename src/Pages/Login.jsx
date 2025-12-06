@@ -6,7 +6,7 @@ import { MdOutlineRemoveRedEye } from "react-icons/md";
 import toast, { Toaster } from "react-hot-toast";
 
 const Login = () => {
-  const { signIn,signWithgoogle } = use(AuthContext);
+  const { signIn,signWithgoogle,signInWithgithub } = use(AuthContext);
   const Location = useLocation();
   const navigate = useNavigate();
   const [error, setError] = useState("");
@@ -52,6 +52,25 @@ const Login = () => {
 
         setError("Google Sign-In Failed");
       });
+  };
+
+  const handeleGitHubSignIn = (e) => {
+    e.preventDefault();
+    signInWithgithub()
+      .then((result) => {
+        const user = result.user;
+        console.log(user);
+        navigate(`${Location.state ? Location.state : "/"}`);
+        toast.success("Login Successful");
+      })
+      .catch((error) => {
+        const errorCode = error.code;
+        const errorMessage = error.message;
+
+        setError("GitHub Sign-In Failed");
+      }); 
+    
+    
   };
   return (
     <>
@@ -143,7 +162,7 @@ const Login = () => {
             </svg>
             Login with Google
           </button>
-          <button className="btn bg-black text-white border-black">
+          <button onClick={handeleGitHubSignIn} className="btn bg-black text-white border-black">
             <svg
               aria-label="GitHub logo"
               width="16"
